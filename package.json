@@ -1,0 +1,23 @@
+{
+  "name": "homepagetest",
+  "version": "1.0.0",
+  "description": "test project for Ascentus internship opportunity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GarrettGraham/HomePage.git"
+  },
+  "author": "Garrett Anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GarrettGraham/HomePage/issues"
+  },
+  "homepage": "https://github.com/GarrettGraham/HomePage#readme",
+  "dependencies": {
+    "bower": "^1.5.3"
+  },
+  "devDependencies": {}
+}

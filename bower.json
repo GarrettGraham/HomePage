@@ -1,0 +1,17 @@
+{
+  "name": "HomePage",
+  "version": "0.0.0",
+  "homepage": "https://github.com/GarrettGraham/HomePage",
+  "authors": [
+    "Garrett Graham <ganderson7197@icloud.com>"
+  ],
+  "description": "test project for internship opportunity",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
