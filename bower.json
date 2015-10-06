@@ -20,5 +20,8 @@
   "main": "",
   "moduleType": [
     "globals"
-  ]
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
 }
