@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="img/components/font-awesome-4.4.0/css/font-awesome.min.css">
   <!-- bower:css -->
+  	<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- endbower -->
   <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
@@ -37,11 +38,11 @@
           <img src="img/logo.png" />
           <ul>
             <!-- Left nav bar text -->
-            <li><a href="">overview</a></li>
-            <li><a href="">friends</a></li>
-            <li><a href="">your board</a></li>
+            <li><a href="#">overview</a></li>
+            <li><a href="#">friends</a></li>
+            <li><a href="#">your board</a></li>
             <!-- green dot to be needs to be on top right corner of text -->
-            <li><a href="">inbox</a></li>
+            <li><a href="#">inbox</a></li>
             <!-- icon nav to be on the right hand side of the nav bar -->
             <li><i class="fa fa-search"></i></li>
             <li><i class="fa fa-plus"></i></li>
@@ -89,12 +90,26 @@
         <hr>
         <ul class="timeline">
           <!-- posts timeline: first child (odd children) justify text right, second child (even children) justify text left  -->
-          <li><p>10 minutes ago </br>
+          <li>
+            <p>10 minutes ago </br>
             Pinned <em>Nordic Architechture</em> to his board.</p>
+            <i class="fa fa-circle"></i>
           </li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>
+            <i class="fa fa-circle"></i>
+          <p>10 minutes ago </br>
+          Updated his <em>profile picture.</em></p>
+        </li>
+        <li>
+          <p>10 minutes ago </br>
+          Pinned <em>Nordic Architechture</em> to his board.</p>
+          <i class="fa fa-circle"></i>
+        </li>
+        <li>
+          <i class="fa fa-circle"></i>
+        <p>10 minutes ago </br>
+        Updated his <em>profile picture.</em></p>
+      </li>
         </ul>
       </aside>
     </div>
