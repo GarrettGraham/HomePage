@@ -119,17 +119,18 @@ header {
   float:right;
 }
 
-.headerNav > ul {
+.headerNav  ul {
   margin-bottom: 0;
 }
 
 .heroImage {
   background-image: url("/img/photoRedBldg.jpg");
-  background-size: auto 100%;
-  height: 550px;
+  background-size: 100% 100%;
+  height: 650px;
+  color: #FFFFFF;
 }
 
-.heroImage > h5 {
+.heroImage h5 {
   margin-top: 0;
 }
 
@@ -138,11 +139,15 @@ header {
 aside {
   width: 35%;
   float:left;
+  text-align: center;
+  background-color: #1C1F20;
+  color: #FFFFFF;
 }
 
 .profileImg {
   height: 5em;
   width: 5em;
+  border-radius: 50%;
 }
 
 
