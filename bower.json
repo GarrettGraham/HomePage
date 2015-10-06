@@ -13,5 +13,12 @@
     "bower_components",
     "test",
     "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.3.5"
+  },
+  "main": "",
+  "moduleType": [
+    "globals"
   ]
 }
