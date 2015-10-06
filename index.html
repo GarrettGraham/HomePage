@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="img/components/font-awesome-4.4.0/css/font-awesome.min.css">
   <!-- bower:css -->
-  	<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- endbower -->
   <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
@@ -31,24 +31,39 @@
 
   <!-- Add your site or application content here -->
   <div class="siteContainer">
-    <div class="mainContent">
       <header>
-        <nav>
+        <nav class="headerNav">
           <!-- Cado Logo image far left of the nav bar -->
-          <img src="img/logo.png" />
-          <ul>
-            <!-- Left nav bar text -->
-            <li><a href="#">overview</a></li>
-            <li><a href="#">friends</a></li>
-            <li><a href="#">your board</a></li>
-            <!-- green dot to be needs to be on top right corner of text -->
-            <li><a href="#">inbox</a></li>
+            <ul>
+              <div class="leftNav">
+                <img src="img/logo.png" />
+              <!-- Left nav bar text -->
+              <li>
+                <a href="#">overview</a>
+              </li>
+              <li>
+                <a href="#">friends</a>
+              </li>
+              <li>
+                <a href="#">your board</a>
+              </li>
+              <!-- green dot to be needs to be on top right corner of text -->
+              <li>
+                <a href="#">inbox</a>
+              </li>
+          </div>
+          <div class="rightNav">
             <!-- icon nav to be on the right hand side of the nav bar -->
-            <li><i class="fa fa-search"></i></li>
-            <li><i class="fa fa-plus"></i></li>
+            <li>
+              <i class="fa fa-search"></i>
+            </li>
+            <li>
+              <i class="fa fa-plus"></i>
+            </li>
             <li>
               <img src="img/iconNavImg.png" />
             </li>
+          </div>
           </ul>
         </nav>
       </header>
@@ -74,75 +89,99 @@
         <hr>
         <!-- number of stories and followers-->
         <div class="storiesAndFollowers">
-        <ul>
-          <li>
-            <p>874</p>
-            <h5>Stories</h5>
-          </li>
-          <li>
-            <p>10
-              <span class="m">M</span>
-            </p>
-            <h5>Followers</h5>
-          </li>
-        </ul>
-      </div>
+          <ul>
+            <li>
+              <p>874</p>
+              <h5>Stories</h5>
+            </li>
+            <li>
+              <p>10
+                <span class="m">M</span>
+              </p>
+              <h5>Followers</h5>
+            </li>
+          </ul>
+        </div>
         <hr>
         <ul class="timeline">
           <!-- posts timeline: first child (odd children) justify text right, second child (even children) justify text left  -->
           <li>
             <p>10 minutes ago </br>
-            Pinned <em>Nordic Architechture</em> to his board.</p>
+              Pinned
+              <em>Nordic Architechture</em> to his board.</p>
             <i class="fa fa-circle"></i>
           </li>
           <li>
             <i class="fa fa-circle"></i>
-          <p>10 minutes ago </br>
-          Updated his <em>profile picture.</em></p>
-        </li>
-        <li>
-          <p>10 minutes ago </br>
-          Pinned <em>Nordic Architechture</em> to his board.</p>
-          <i class="fa fa-circle"></i>
-        </li>
-        <li>
-          <i class="fa fa-circle"></i>
-        <p>10 minutes ago </br>
-        Updated his <em>profile picture.</em></p>
-      </li>
+            <p>10 minutes ago </br>
+              Updated his
+              <em>profile picture.</em>
+            </p>
+          </li>
+          <li>
+            <p>10 minutes ago </br>
+              Pinned
+              <em>Nordic Architechture</em> to his board.</p>
+            <i class="fa fa-circle"></i>
+          </li>
+          <li>
+            <i class="fa fa-circle"></i>
+            <p>10 minutes ago </br>
+              Updated his
+              <em>profile picture.</em>
+            </p>
+          </li>
         </ul>
       </aside>
+      <div class="mainContent">
+        <nav class="postsNav">
+        <ul>
+          <div class="leftNav">
+          <li><a href="#">board</a></li>
+          <li><a href="#">following</a></li>
+          <li><a href="#">guest book</a></li>
+        </div>
+        <div class="rightNav">
+          <li><a href="#">invites<span class="invitedNumber">8</span></li>
+        </div>
+        </ul>
+      </nav>
+      <section>
+        <figure></figure>
+        <figure></figure>
+        <figure></figure>
+        <section>
+      </div>
     </div>
-  </div>
 
-  <!-- bower:js -->
-  <script src="bower_components/jquery/dist/jquery.js"></script>
-  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-  <!-- endbower -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script>
-    window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')
-  </script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- endbower -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+      window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
-  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-  <script>
-    (function(b, o, i, l, e, r) {
-      b.GoogleAnalyticsObject = l;
-      b[l] || (b[l] =
-        function() {
-          (b[l].q = b[l].q || []).push(arguments)
-        });
-      b[l].l = +new Date;
-      e = o.createElement(i);
-      r = o.getElementsByTagName(i)[0];
-      e.src = '//www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e, r)
-    }(window, document, 'script', 'ga'));
-    ga('create', 'UA-XXXXX-X');
-    ga('send', 'pageview');
-  </script>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b, o, i, l, e, r) {
+        b.GoogleAnalyticsObject = l;
+        b[l] || (b[l] =
+          function() {
+            (b[l].q = b[l].q || []).push(arguments)
+          });
+        b[l].l = +new Date;
+        e = o.createElement(i);
+        r = o.getElementsByTagName(i)[0];
+        e.src = '//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e, r)
+      }(window, document, 'script', 'ga'));
+      ga('create', 'UA-XXXXX-X');
+      ga('send', 'pageview');
+    </script>
 </body>
 
 </html>

@@ -97,9 +97,41 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+  background: url("/img/testBckground.jpg")no-repeat center center;
+  background-size: cover;
+}
 
+.siteContainer {
+  margin: 0 5em 0 5em;
+}
 
+header {
+  background-color: #FFFFFF;
+}
 
+.leftNav {
+  display: inline-flex;
+}
+
+.rightNav {
+  display: inline-flex;
+  float:right;
+}
+
+.headerNav > ul {
+  margin-bottom: 0;
+}
+
+.heroImage {
+  background: url("/img/photoRedBldg.jpg")no-repeat center;
+  background-size: cover;
+  height: 580px;
+}
+
+.heroImage > h5 {
+  margin-top: 0;
+}
 
 
 
