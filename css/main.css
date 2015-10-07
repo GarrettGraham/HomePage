@@ -197,7 +197,18 @@ aside {
   border-radius: 50%;
 }
 
-/* number of stories and followers div */
+.buttonsFollowMessage button {
+  border: 1px solid #5C5E5F;
+  background-color: #1C1F20;
+  color: #5C5E5F;
+}
+
+.buttonsFollowMessage button:nth-child(even){
+  width: 101px;
+  margin-left: 2.5em;
+}
+
+/* Aside: number of stories and followers div */
 .storiesAndFollowers ul {
   list-style: none;
   margin: 0 2em;
@@ -214,7 +225,7 @@ hr {
   color: #303334;
 }
 
-/* posts timeline list */
+/* Aside: posts timeline list */
 .timeline {
   list-style: none;
 }
