@@ -197,7 +197,15 @@ aside {
   border-radius: 50%;
 }
 
+/* number of stories and followers div */
+.storiesAndFollowers ul {
+  list-style: none;
+}
 
+/* posts timeline list */
+.timeline {
+  list-style: none;
+}
 
 
 
