@@ -1,5 +1,5 @@
-$(document).ready(function(){
-  $('#inboxPopover').tooltip ({
+$(function(){
+  $(".inboxTooltip").tooltip ({
       position: {
         my: "center bottom-20",
         at: "center top",
