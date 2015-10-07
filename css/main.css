@@ -190,7 +190,9 @@ aside {
   background-color: #1C1F20;
   color: #FFFFFF;
 }
-
+.asideContent {
+  margin-top: 2em;
+}
 .profileImg {
   height: 5em;
   width: 5em;
@@ -201,6 +203,13 @@ aside {
   border: 1px solid #5C5E5F;
   background-color: #1C1F20;
   color: #5C5E5F;
+  padding: 5px;
+  border-radius: 2em;
+}
+
+.buttonsFollowMessage button:hover {
+  background-color: #00A46D;
+  color: #FFFFFF;
 }
 
 .buttonsFollowMessage button:nth-child(even){
@@ -212,11 +221,12 @@ aside {
 .storiesAndFollowers ul {
   list-style: none;
   margin: 0 2em;
-  padding-left: 55px;
+  padding-left: 42px;
 }
 
 .storiesAndFollowers ul li:first-child {
   float:left;
+  margin-right: 3em;
 }
 
 hr {
@@ -230,7 +240,46 @@ hr {
   list-style: none;
 }
 
+.timeline p:first-child {
+  float: left;
+  width: 40%;
+}
 
+.timeline p:nth-child(even) {
+  float: right;
+  margin-top: 3em;
+  width: 49.5%;
+  padding-right: 25px;
+}
+
+.fa-circle {
+  position: relative;
+  right: 5em;
+}
+
+.secondCircle {
+  position: relative;
+  left: 0em;
+  top: 3em;
+}
+
+/* timeline verticla line connecting dots */
+.timeline::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 8.5em;
+  background: #323536;
+  top: 76.5em;
+  left: 17em;
+}
+/* MainContent: Posts Dashboard */
+
+.mainContent {
+  width: 65%;
+  float: right;
+  background-color: #FFFFFF;
+}
 
 
 
