@@ -117,6 +117,15 @@ header {
   margin: 15px 0 0 0;
 }
 
+/* left top nav bar color and hover color */
+.leftNav li a {
+  color: #BCBFC3;
+}
+
+.leftNav li a:hover {
+  color: #373737;
+}
+
 .rightNav {
   display: inline-flex;
   float:right;
@@ -135,15 +144,29 @@ header {
 #navLinesRight {
   color: white;
   margin-top: 10px;
+  margin-right: 15px;
 }
 
 /* nav-bar right search icon*/
-
 .rightNav li:first-child {
   background-color: #BCBFC3;
   padding-left: 5px;
   padding-right: 5px;
   border-radius: 50%;
+}
+
+/* nav-bar plus icon */
+.rightNav li:nth-child(even) {
+  background-color: #FF554C;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 1px;
+  border-radius: 50%;
+}
+
+/* nav-bar right third list item image */
+.rightNav li:last-child {
+  margin-top: 6px;
 }
 
 /* Hero Image Carousel */
