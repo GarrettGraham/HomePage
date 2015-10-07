@@ -50,8 +50,8 @@
               <a href="#">your board</a>
             </li>
             <!-- green dot to be needs to be on top right corner of text -->
-            <li id="navLinesLeft" class="inboxPopover">
-              <a href="#">inbox</a>
+            <li id="navLinesLeft">
+              <a href="#" class="inboxPopover" data-toggle="popover" data-placement="bottom" data-trigger="hover">inbox</a>
             </li>
         </div>
 
@@ -159,6 +159,11 @@
       </footer>
     </div>
 
+<!-- <script>
+$(function(){
+  $("[data-toggle='popover']").popover()
+});
+</script> -->
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
