@@ -106,6 +106,7 @@ body {
   margin: 0 5em 0 5em;
 }
 
+/* Navigation Header */
 header {
   background-color: #FFFFFF;
   height: 5em;
@@ -127,6 +128,12 @@ header {
   margin-bottom: 0;
 }
 
+#navLines {
+  padding: 10px 20px;
+
+}
+
+/* Hero Image Carousel */
 .heroImage {
   background-image: url("/img/photoRedBldg.jpg");
   background-size: 100% 100%;
