@@ -208,6 +208,12 @@ aside {
   float:left;
 }
 
+hr {
+  margin-right: 3em;
+  margin-left: 3em;
+  color: #303334;
+}
+
 /* posts timeline list */
 .timeline {
   list-style: none;
