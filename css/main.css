@@ -171,15 +171,25 @@ header {
 
 /* Hero Image Carousel */
 .heroImage {
-  background-image: url("/img/photoRedBldg.jpg");
+  /*background-image: url("/img/photoRedBldg.jpg");
+  commented out above image to test the size of the image because the original was too large */
+  background-image: url("/img/rsz_1rsz_photoredbldg.jpg");
   background-size: 100% 100%;
-  height: 650px;
+  height: 480px;
   color: #FFFFFF;
 }
 
-.heroImage h5 {
-  margin-top: 0;
+.heroText {
+  padding-top: 23em;
+  padding-left: 2em;
 }
+
+.heroText h1 {
+  font-family: initial;
+  font-size: 60px;
+  font-weight: 900;
+}
+
 
 /* Aside */
 
@@ -270,7 +280,7 @@ hr {
   width: 2px;
   height: 8.5em;
   background: #323536;
-  top: 76.5em;
+  top: 64.5em;
   left: 17em;
 }
 /* MainContent: Posts Dashboard */
@@ -281,9 +291,19 @@ hr {
   background-color: #FFFFFF;
 }
 
+.rightNavMainContent {
+  float: right;
+  margin: 15px 0 0 0;
+  padding-right: 20px;
+}
 
+.rightNavMainContent li {
+  margin-top: 10px;
+}
 
-
+.dashboardPosts {
+  background-color: #EBEDEB;
+}
 
 
 
