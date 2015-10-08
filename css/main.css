@@ -107,7 +107,7 @@ body {
 }
 
 /* Navigation Header */
-header {
+.headerNav {
   background-color: #FFFFFF;
   height: 5em;
 }
@@ -287,6 +287,7 @@ hr {
 
 .mainContent {
   width: 65%;
+  height: 472px;
   float: right;
   background-color: #FFFFFF;
 }
@@ -303,9 +304,19 @@ hr {
 
 .dashboardPosts {
   background-color: #EBEDEB;
+  height: 80%;
 }
 
-
+.postsContainer {
+  display: inline-flex;
+  width:  550px;
+  margin-top: 2em;
+  margin-left: 4em;
+}
+ figure img{
+   width: 150px;
+   height: 150px;
+ }
 
 
 /* ==========================================================================
