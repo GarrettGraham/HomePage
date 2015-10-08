@@ -300,6 +300,16 @@ hr {
 
 .rightNavMainContent li {
   margin-top: 10px;
+  color: #BCBFC3;
+}
+
+.invitedNumber {
+  margin-left: 1em;
+  background-color: #FF554C;
+  color: #FFFFFF;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 50%;
 }
 
 .dashboardPosts {
@@ -311,14 +321,31 @@ hr {
   display: inline-flex;
   width:  550px;
   margin-top: 2em;
-  margin-left: 4em;
+  margin-left: 2em;
 }
  figure img{
    width: 150px;
    height: 150px;
+   margin-left: 1em;
+   margin-right: 1em;
  }
 
+ figcaption {
+   position: relative;
+   color: #FFFFFF;
+   bottom: 2em;
+   left: 1em;
+   font-size: 25px;
+   font-weight: 100;
+ }
 
+/* page carrot */
+.fa-sort-asc {
+  position: relative;
+  left: 1.55em;
+  bottom:0.35em;
+  color: #EBEDEB;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
