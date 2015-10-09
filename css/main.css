@@ -163,12 +163,9 @@ body {
 /* Hero Image Carousel */
 
 .heroImage {
-  /*background-image: url("/img/rsz_2rsz_photoRedBldg.jpg");*/
-  /*commented out above image to test the size of the image because the original was too large */
-  /*background-image: url("/img/rsz_1rsz_photoredbldg.jpg");*/
   background-size: 100% 100%;
   margin: 0;
-  height: 734px;
+  height: 740px;
 }
 .heroText {
   position: relative;
@@ -371,7 +368,7 @@ figcaption {
 .fa-sort-asc {
   position: relative;
   left: 1.55em;
-  bottom: 0.35em;
+  bottom: 4.35em;
   color: #EBEDEB;
 }
 
