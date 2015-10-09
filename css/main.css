@@ -89,12 +89,12 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+@media only screen and (min-width: 35em) {
 body {
   background: url("/img/testBckground.jpg")no-repeat center center;
   background-size: cover;
 }
-.siteContainer {
+.Container {
   margin: 0 5em 0 5em;
 }
 
@@ -183,6 +183,21 @@ body {
 }
 .carousel {
   height: 734px!important;
+}
+
+/* pin and heart icons on hero image */
+
+.pinHeartIcons{
+  position: relative;
+  bottom: 58em;
+  left: 52em;
+}
+.pinHeartIcons i:first-child {
+  color: #FFD56C;
+  margin-right: 1em;
+}
+.pinHeartIcons i:nth-child(even) {
+  color: #FFFFFF;
 }
 
 /* Aside */
@@ -305,8 +320,6 @@ hr {
 .postsContainer {
   display: inline-flex;
   width: 550px;
-  margin-top: 2em;
-  margin-left: 2em;
 }
 figcaption {
   position: relative;
@@ -353,7 +366,7 @@ figcaption {
   margin-left: 1em;
 }
 
-/* dashboard section carrot */
+/* dashboard section caret */
 
 .fa-sort-asc {
   position: relative;
@@ -361,6 +374,22 @@ figcaption {
   bottom: 0.35em;
   color: #EBEDEB;
 }
+
+/* dashboard image icons */
+
+.dashboardImgIcons {
+  position: relative;
+  top: 2em;
+  left: 7em;
+}
+.dashboardImgIcons i:first-child {
+  color: #FFD56C;
+  margin-right: 1em;
+}
+.dashboardImgIcons i:nth-child(even) {
+  color: #FFFFFF;
+}
+
 
 /* inbox popover template */
 
@@ -416,7 +445,7 @@ figcaption {
   padding-bottom: 5px;
   color: #B3B6BA;
 }
-
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
