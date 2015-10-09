@@ -162,23 +162,27 @@ body {
 
 /* Hero Image Carousel */
 
-
 .heroImage {
-  background-image: url("/img/rsz_2rsz_photoRedBldg.jpg");
+  /*background-image: url("/img/rsz_2rsz_photoRedBldg.jpg");*/
   /*commented out above image to test the size of the image because the original was too large */
   /*background-image: url("/img/rsz_1rsz_photoredbldg.jpg");*/
   background-size: 100% 100%;
   margin: 0;
+  height: 734px;
 }
 .heroText {
-  padding-top: 23em;
-  padding-left: 2em;
+  position: relative;
+  bottom: 15em;
+  left: 2em;
   color: #FFFFFF;
 }
 .heroText h1 {
   font-family: initial;
   font-size: 60px;
   font-weight: 900;
+}
+.carousel {
+  height: 734px!important;
 }
 
 /* Aside */
@@ -253,7 +257,7 @@ hr {
 }
 .secondCircle {
   position: relative;
-  left: 0em;
+  right: 0.2em;
   top: 3em;
 }
 
@@ -265,8 +269,8 @@ hr {
   width: 2px;
   height: 8.7em;
   background: #323536;
-  top: 68.5em;
-  left: 17em;
+  top: 81.5em;
+  left: 16.5em;
 }
 
 /* MainContent: Posts Dashboard */
@@ -304,7 +308,6 @@ hr {
   margin-top: 2em;
   margin-left: 2em;
 }
-
 figcaption {
   position: relative;
   color: #FFFFFF;
@@ -323,12 +326,11 @@ figcaption {
   height: 150px;
   overflow: hidden;
 }
-
 #imageOverlay {
-background: #4D8FA5;
-padding: 45px 0 104px 0;
-opacity: 0;
-text-align: center;
+  background: #4D8FA5;
+  padding: 45px 0 104px 0;
+  opacity: 0;
+  text-align: center;
 }
 #postsImage:hover #imageOverlay {
   opacity: 0.7;
@@ -339,14 +341,13 @@ text-align: center;
 }
 .overlayIcons i:first-child {
   background-color: #FFFFFF;
-  color:#4D8FA5;
+  color: #4D8FA5;
   padding: 10px;
   border-radius: 50%;
 }
-
 .overlayIcons i:nth-child(even) {
   background-color: #FFFFFF;
-  color:#4D8FA5;
+  color: #4D8FA5;
   padding: 10px 11px 10px 11px;
   border-radius: 50%;
   margin-left: 1em;
