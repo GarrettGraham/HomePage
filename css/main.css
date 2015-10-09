@@ -89,7 +89,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-@media only screen and (min-width: 35em) {
+
 body {
   background: url("/img/testBckground.jpg")no-repeat center center;
   background-size: cover;
@@ -187,7 +187,7 @@ body {
 
 /* pin and heart icons on hero image */
 
-.pinHeartIcons{
+.pinHeartIcons {
   position: relative;
   bottom: 58em;
   left: 52em;
@@ -390,7 +390,6 @@ figcaption {
   color: #FFFFFF;
 }
 
-
 /* inbox popover template */
 
 .popoverTemplate {
@@ -445,7 +444,7 @@ figcaption {
   padding-bottom: 5px;
   color: #B3B6BA;
 }
-}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
