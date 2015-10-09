@@ -1,8 +1,7 @@
-$(function(){
-  $('[data-toggle="popover"]').popover(
-    {
+$(function() {
+  $('[data-toggle="popover"]').popover({
     html: true,
-    content: function(){
+    content: function() {
       return $("#popoverTemplate").html();
     }
   });

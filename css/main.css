@@ -184,6 +184,7 @@ body {
 
 aside {
   width: 35%;
+  height: 33em;
   float: left;
   text-align: center;
   background-color: #1C1F20;
@@ -261,9 +262,9 @@ hr {
   content: '';
   position: absolute;
   width: 2px;
-  height: 8.5em;
+  height: 8.7em;
   background: #323536;
-  top: 64.5em;
+  top: 63.5em;
   left: 17em;
 }
 
@@ -271,7 +272,7 @@ hr {
 
 .mainContent {
   width: 65%;
-  height: 472px;
+  height: 33em;
   float: right;
   background-color: #FFFFFF;
 }
@@ -294,7 +295,7 @@ hr {
 }
 .dashboardPosts {
   background-color: #EBEDEB;
-  height: 80%;
+  height: 86%;
 }
 .postsContainer {
   display: inline-flex;
@@ -305,8 +306,6 @@ hr {
 figure img {
   width: 150px;
   height: 150px;
-  margin-left: 1em;
-  margin-right: 1em;
 }
 figcaption {
   position: relative;
@@ -317,7 +316,7 @@ figcaption {
   font-weight: 100;
 }
 
-/* page carrot */
+/* dashboard section carrot */
 
 .fa-sort-asc {
   position: relative;
@@ -326,6 +325,65 @@ figcaption {
   color: #EBEDEB;
 }
 
+/* inbox popover template */
+
+.popoverTemplate {
+  width: 350px;
+  height: 250px;
+}
+.userMessages {
+  list-style: none;
+  padding: 0;
+  width: 300px;
+  height: 190px;
+}
+
+.userMessages li {
+  height: 95px;
+
+}
+
+.userMessages li img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  /*float: left;*/
+}
+.userMessages h5 {
+  position: relative;
+  bottom: 3em;
+  margin-left: 3em;
+}
+.userMessages li time {
+  float: right;
+  position: relative;
+  bottom: 4.9em;
+  right: 4em;
+  color: #ABACAE;
+}
+
+.userMessages p {
+  position: relative;
+  bottom:3em;
+  left: 3em;
+  color: #646464;
+}
+.userMessages hr{
+position: relative;
+right: 2em;
+bottom: 1em;
+}
+
+.userMessages button {
+  background-color: #EFF0F0;
+  width: 91%;
+  position: relative;
+  right: 1em;
+  bottom: 2em;
+  border: none;
+  padding-bottom: 5px;
+  color: #B3B6BA;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
