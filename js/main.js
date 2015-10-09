@@ -8,11 +8,3 @@ $(function(){
   });
 
 });
-//   $(".inboxPopover").hover(
-//     function() {
-//         return $("#popoverTemplate").html();
-//     };
-//     // function() {
-//     //   $(this).find("#popoverTemplate").hide();
-//     });
-// });
