@@ -94,10 +94,11 @@ body {
   background: url("/img/testBckground.jpg")no-repeat center center;
   background-size: cover;
   height: 100vh;
+  width: 100%;
 }
-.Container {
+.container {
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 80%;
 }
 
 /* Navigation Header */
@@ -164,11 +165,11 @@ body {
 
 /* Hero Image Carousel */
 
-.heroImage {
+/*.heroImage {
   background-size: 100% 100%;
   margin: 0;
   height: 740px;
-}
+}*/
 .heroText {
   position: relative;
   bottom: 15em;
@@ -180,9 +181,9 @@ body {
   font-size: 60px;
   font-weight: 900;
 }
-.carousel {
+/*.carousel {
   height: 734px!important;
-}
+}*/
 
 /* pin and heart icons on hero image */
 
@@ -287,9 +288,27 @@ hr {
 
 .mainContent {
   width: 65%;
-  height: 33em;
   float: right;
   background-color: #FFFFFF;
+}
+
+.postsNav {
+    height: 4em;
+}
+
+.postsNav ul {
+  padding-left: 0;
+}
+.sectionLeftNav {
+    display: inline-flex;
+    margin: 15px 0 0 40px;
+}
+
+.sectionLeftNav li a {
+  color: #BCBFC3;
+}
+.sectionLeftNav li a:hover {
+  color: #373737;
 }
 .rightNavMainContent {
   float: right;
@@ -312,13 +331,24 @@ hr {
   background-color: #EBEDEB;
   height: 86%;
 }
-.postsContainer {
+/*.postsContainer {
   display: inline-flex;
   width: 550px;
+}*/
+
+figure  {
+  display: inline-block;
+  width: 30%;
+  background: url("http://lorempixel.com/400/200");
+  background-size: cover;
+  /*width: 150px;
+  height: 150px;*/
+  overflow: hidden;
 }
 figcaption {
   position: relative;
   color: #FFFFFF;
+  display: inherit;
   bottom: 2em;
   left: 1em;
   font-size: 25px;
@@ -327,13 +357,13 @@ figcaption {
 
 /* hover state on the dashboard images  */
 
-#postsImage {
+/*#postsImage {
   background: url("http://lorempixel.com/400/200");
   background-size: cover;
   width: 150px;
   height: 150px;
   overflow: hidden;
-}
+}*/
 #imageOverlay {
   background: #4D8FA5;
   padding: 45px 0 104px 0;
@@ -366,7 +396,7 @@ figcaption {
 .fa-sort-asc {
   position: relative;
   left: 1.55em;
-  bottom: 4.35em;
+  bottom: 0.55em;
   color: #EBEDEB;
 }
 
