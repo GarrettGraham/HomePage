@@ -93,6 +93,7 @@ textarea {
 body {
   background: url("/img/testBckground.jpg")no-repeat center center;
   background-size: cover;
+  height: 100vh;
 }
 .Container {
   margin: 0 auto;
@@ -202,14 +203,11 @@ body {
 
 aside {
   width: 35%;
-  height: 33em;
   float: left;
   text-align: center;
   background-color: #1C1F20;
   color: #FFFFFF;
-}
-.asideContent {
-  margin-top: 2em;
+  padding-top: 2em;
 }
 .profileImg {
   height: 5em;
@@ -253,6 +251,7 @@ hr {
 
 .timeline {
   list-style: none;
+  position: relative;
 }
 .timeline p:first-child {
   float: left;
@@ -280,10 +279,8 @@ hr {
   content: '';
   position: absolute;
   width: 2px;
-  height: 8.7em;
+  height: 100%;
   background: #323536;
-  top: 81.5em;
-  left: 16.5em;
 }
 
 /* MainContent: Posts Dashboard */
