@@ -93,8 +93,6 @@ textarea {
 body {
   background: url("/img/testBckground.jpg")no-repeat center center;
   background-size: cover;
-  height: 100vh;
-  width: 100%;
 }
 .container {
   margin: 0 auto;
@@ -165,11 +163,13 @@ body {
 
 /* Hero Image Carousel */
 
+
 /*.heroImage {
   background-size: 100% 100%;
   margin: 0;
   height: 740px;
 }*/
+
 .heroText {
   position: relative;
   bottom: 15em;
@@ -181,9 +181,11 @@ body {
   font-size: 60px;
   font-weight: 900;
 }
+
 /*.carousel {
   height: 734px!important;
 }*/
+
 
 /* pin and heart icons on hero image */
 
@@ -210,10 +212,18 @@ aside {
   color: #FFFFFF;
   padding-top: 2em;
 }
+
+aside > h3 {
+  margin-bottom: 0;
+}
 .profileImg {
   height: 5em;
   width: 5em;
   border-radius: 50%;
+}
+
+.buttonsFollowMessage {
+  margin: 2em;
 }
 .buttonsFollowMessage button {
   border: 1px solid #5C5E5F;
@@ -233,6 +243,9 @@ aside {
 
 /* Aside: number of stories and followers div */
 
+.storiesAndFollowers {
+  margin: 2em;
+}
 .storiesAndFollowers ul {
   list-style: none;
   margin: 0 2em;
@@ -251,8 +264,15 @@ hr {
 /* Aside: posts timeline list */
 
 .timeline {
+  display: inline-block;
   list-style: none;
+  margin: 2em;
+  padding-left: 0;
   position: relative;
+}
+.timeline li {
+  display: inline-block;
+  width: 272px;
 }
 .timeline p:first-child {
   float: left;
@@ -262,7 +282,6 @@ hr {
   float: right;
   margin-top: 3em;
   width: 49.5%;
-  padding-right: 25px;
 }
 .fa-circle {
   position: relative;
@@ -270,7 +289,7 @@ hr {
 }
 .secondCircle {
   position: relative;
-  right: 0.2em;
+  left: 3.8em;
   top: 3em;
 }
 
@@ -284,6 +303,8 @@ hr {
   background: #323536;
 }
 
+/* End Aside */
+
 /* MainContent: Posts Dashboard */
 
 .mainContent {
@@ -291,19 +312,16 @@ hr {
   float: right;
   background-color: #FFFFFF;
 }
-
 .postsNav {
-    height: 4em;
+  height: 4em;
 }
-
 .postsNav ul {
   padding-left: 0;
 }
 .sectionLeftNav {
-    display: inline-flex;
-    margin: 15px 0 0 40px;
+  display: inline-flex;
+  margin: 15px 0 0 40px;
 }
-
 .sectionLeftNav li a {
   color: #BCBFC3;
 }
@@ -329,21 +347,20 @@ hr {
 }
 .dashboardPosts {
   background-color: #EBEDEB;
-  height: 86%;
 }
+
 /*.postsContainer {
   display: inline-flex;
   width: 550px;
 }*/
 
-figure  {
+figure {
   display: inline-block;
   width: 30%;
   background: url("http://lorempixel.com/400/200");
   background-size: cover;
-  /*width: 150px;
-  height: 150px;*/
-  overflow: hidden;
+  height: 220px;
+  margin: 1em 0 0 1em;
 }
 figcaption {
   position: relative;
@@ -354,23 +371,23 @@ figcaption {
   font-size: 25px;
   font-weight: 100;
 }
-
+figure.thirdFigure {
+  height: 320px;
+}
+figure.fourthFigure {
+  position: relative;
+  bottom:7em;
+  width: 62.5%;
+}
 /* hover state on the dashboard images  */
 
-/*#postsImage {
-  background: url("http://lorempixel.com/400/200");
-  background-size: cover;
-  width: 150px;
-  height: 150px;
-  overflow: hidden;
-}*/
 #imageOverlay {
   background: #4D8FA5;
   padding: 45px 0 104px 0;
   opacity: 0;
   text-align: center;
 }
-#postsImage:hover #imageOverlay {
+.dashboardPosts figure:hover #imageOverlay {
   opacity: 0.7;
 }
 .overlayIcons {
