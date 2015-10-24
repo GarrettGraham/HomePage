@@ -33,6 +33,7 @@
 
   <div class="container">
 
+    <!-- Beginning Navigation Bar -->
     <nav class="headerNav">
       <!-- Cado Logo image far left of the nav bar -->
       <ul>
@@ -55,7 +56,9 @@
             <a href="#" class="inboxPopover" data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-html="true">inbox</a>
           </li>
         </div>
+        <!-- End of left Nav bar -->
 
+        <!-- Beginning of Right Nav -->
         <div class="rightNav">
           <!-- icon nav to be on the right hand side of the nav bar -->
           <li id="navLinesRight">
@@ -68,8 +71,10 @@
             <img src="img/iconNavImg.png" />
           </li>
         </div>
+        <!-- End of Right nav -->
       </ul>
     </nav>
+    <!-- End Navigation Bar -->
 
     <!-- hero image with carousel -->
     <header class="heroImage">
@@ -88,7 +93,7 @@
             <div class="carousel-caption">
             </div>
           </div>
-          <!-- <div class="item">
+          <div class="item">
             <img src="/img/rsz_2rsz_photoRedBldg.jpg" alt="">
             <div class="carousel-caption">
             </div>
@@ -97,30 +102,31 @@
             <img src="/img/rsz_2rsz_photoRedBldg.jpg" alt="">
             <div class="carousel-caption">
             </div>
-          </div> -->
+          </div>
         </div>
       </div>
+      <span class="pinHeartIcons"><i class="fa fa-thumb-tack fa-2x"><p>142</p></i><i class="fa fa-heart fa-2x"><p>82</p></i></span>
       <div class="heroText">
         <p>Featured set of Pins - 10th December, 2014 </p>
         <h1>Monument Decor
         </h1>
       </div>
-      <span class="pinHeartIcons"><i class="fa fa-thumb-tack fa-3x"></i><i class="fa fa-heart-o fa-3x"></i></span>
+      <!-- <span class="pinHeartIcons"><i class="fa fa-thumb-tack fa-3x"></i><i class="fa fa-heart-o fa-3x"></i></span> -->
       <!-- </div> -->
     </header>
+    <!-- End hero image carousel -->
 
     <!-- sidebar content -->
-
     <aside>
       <img src="img/Garrett.jpg" alt="Profile Owner Image" class="profileImg" />
       <h3>Carl von Hoff</h3>
       <p>Furniture Designer</p>
       <div class="buttonsFollowMessage">
-        <button name="following">
+        <button class="followingButton">
           <i class="fa fa-plus"></i>
           <i class="fa fa-user"></i> following
         </button>
-        <button name="message">
+        <button class="messageButton">
           <i class="fa fa-comment"></i> message
         </button>
       </div>
@@ -140,27 +146,30 @@
           </li>
         </ul>
       </div>
+      <!-- End stories and followers -->
       <hr>
       <ul class="timeline">
         <!-- posts timeline: first child (odd children) justify text right, second child (even children) justify text left  -->
         <li>
-          <p>10 minutes ago </br>
+          <p><span class="postTime">10 minutes ago</span></br>
             Pinned
             <em>Nordic Architechture</em> to his board.</p>
           <i class="fa fa-circle"></i>
         </li>
         <li>
           <i class="fa fa-circle secondCircle"></i>
-          <p>10 minutes ago </br>
+          <p><span class="postTime">10 minutes ago</span> </br>
             Updated his
             <em>profile picture.</em>
           </p>
         </li>
       </ul>
     </aside>
+    <!-- End of sidebar content -->
 
-<!-- Dashboard Content  -->
+    <!-- Dashboard Content  -->
     <section class="mainContent">
+      <!-- Dashboard nav-bar -->
       <nav class="postsNav">
         <ul>
           <div class="sectionLeftNav">
@@ -176,27 +185,31 @@
         </ul>
         <i class="fa fa-sort-asc fa-3x"></i>
       </nav>
+      <!-- End Dashboard nav-bar -->
 
+      <!-- Dashboard posts/images -->
       <div class="dashboardPosts">
-
-        <figure>
+<!-- First Figure -->
+        <figure class="firstFigure">
           <a href="">
-            <span class="dashboardImgIcons"><i class="fa fa-thumb-tack"></i><i class="fa fa-heart-o"></i></span>
+            <span class="dashboardImgIcons"><i class="fa fa-thumb-tack"><p>2</p></i><i class="fa fa-heart"><p>2</p></i></span>
             <!-- <div id="postsImage"> -->
-              <div id="imageOverlay">
-                <span class="overlayIcons">
-                  <i class="fa fa-pencil-square-o"></i>
-                  <i class="fa fa-trash-o"></i>
-                </span>
-              </div>
+            <div id="imageOverlay">
+              <span class="overlayIcons">
+                <i class="fa fa-pencil-square-o"></i>
+                <i class="fa fa-trash-o"></i>
+              </span>
+            </div>
             <!-- </div> -->
           </a>
-          <figcaption>Outdoor</figcaption>
+          <figcaption class="firstFigcaption">Outdoor</figcaption>
         </figure>
+<!-- End of First figure -->
 
-        <figure>
+<!-- Second figure -->
+        <figure class="secondFigure">
           <a href="">
-            <span class="dashboardImgIcons"><i class="fa fa-thumb-tack"></i><i class="fa fa-heart-o"></i></span>
+            <span class="dashboardImgIcons"><i class="fa fa-thumb-tack"><p>1</p></i><i class="fa fa-heart"><p>0</p></i></span>
             <div id="postsImage">
               <div id="imageOverlay">
                 <span class="overlayIcons">
@@ -206,11 +219,14 @@
               </div>
             </div>
           </a>
-          <figcaption>Outdoor</figcaption>
+          <figcaption class="secondFigcaption">Plates & </br> Weird Food</figcaption>
         </figure>
+<!-- End of second figure -->
+
+<!-- Third figure -->
         <figure class="thirdFigure">
           <a href="">
-            <span class="dashboardImgIcons"><i class="fa fa-thumb-tack"></i><i class="fa fa-heart-o"></i></span>
+            <span class="dashboardImgIcons"><i class="fa fa-thumb-tack"><p>22</p></i><i class="fa fa-heart"><p>30</p></i></span>
             <div id="postsImage">
               <div id="imageOverlay">
                 <span class="overlayIcons">
@@ -220,11 +236,14 @@
               </div>
             </div>
           </a>
-          <figcaption>Outdoor</figcaption>
+          <figcaption class="thirdFigcaption">Norm </br> Architecture</figcaption>
         </figure>
+        <!-- End of Third figure -->
+
+        <!-- Fourth figure -->
         <figure class="fourthFigure">
           <a href="">
-            <span class="dashboardImgIcons"><i class="fa fa-thumb-tack"></i><i class="fa fa-heart-o"></i></span>
+            <span class="dashboardImgIcons"><i class="fa fa-thumb-tack"><p>2</p></i><i class="fa fa-heart"><p>2</p></i></span>
             <div id="postsImage">
               <div id="imageOverlay">
                 <span class="overlayIcons">
@@ -234,10 +253,14 @@
               </div>
             </div>
           </a>
-          <figcaption>Outdoor</figcaption>
+          <figcaption class="fourthFigcaption"><p>"Form follows function"</p><em>A principle associated with modernist architecture and industrial design in the 20th century. The principle is that the shape of a building...</em></figcaption>
         </figure>
+        <!-- End of fourth figure -->
       </div>
+      <!-- End of dashboard images -->
     </section>
+
+    <!-- End of dashboard content -->
 
     <!-- Template for the popover on the inbox line element -->
     <div id="popoverTemplate" class="hide">
@@ -258,6 +281,7 @@
         <button>see all</button>
       </ul>
     </div>
+    <!-- End popover template -->
   </div>
 
 
