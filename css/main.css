@@ -397,7 +397,7 @@ figcaption {
 /* First dashboard image figure */
 
 .firstFigure {
-  background: url("http://lorempixel.com/400/200");
+  background: url("/img/Le_Louvre.jpg");
   background-size: cover;
   bottom: 10.6em;
   position: relative;
@@ -414,7 +414,7 @@ figcaption {
 /* Second dashboard image figure */
 
 .secondFigure {
-  background: url("http://lorempixel.com/400/200");
+  background: url("/img/Cape_Cod.jpg");
   background-size: cover;
   bottom: 9.3em;
   position: relative;
@@ -430,7 +430,7 @@ figcaption {
 /* Third dashboard image figure */
 
 .thirdFigure {
-  background: url("http://lorempixel.com/400/200");
+  background: url("/img/UK_Phone.jpg");
   background-size: cover;
   height: 350px;
 }
@@ -452,7 +452,7 @@ figcaption {
 /* Fourth dashboard image figure */
 
 .fourthFigure {
-  background: url("http://lorempixel.com/400/200");
+  background: url("/img/Tour_Eiffel.jpg");
   background-size: cover;
   position: relative;
   bottom: 15.5em;
@@ -505,7 +505,7 @@ figcaption {
 }
 /* !!kept the post image div so i may have the image place within the figure below the text unlike the other figures that dont have text!!*/
 .fifthPostImage {
-  background: url("http://lorempixel.com/400/200");
+  background: url("/img/Pkdilly.jpg");
   background-size: cover;
 }
 .fifthPostImage #imageOverlay {
@@ -515,7 +515,7 @@ figcaption {
 
 /* Sixth dashboard image figure */
 .sixthFigure {
-  background: url("http://lorempixel.com/400/200");
+  background: url("/img/Canal.jpg");
   background-size: cover;
   bottom: 24em;
   position: relative;
@@ -524,7 +524,7 @@ figcaption {
 
 /* Seventh dashboard image figure */
 .seventhFigure {
-  background: url("http://lorempixel.com/400/200");
+  background: url("/img/English_Channel.jpg");
   background-size: cover;
   bottom: 22.55em;
   position: relative;
