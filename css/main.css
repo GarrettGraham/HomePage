@@ -171,13 +171,13 @@ body {
 }
 .heroText {
   position: relative;
-  bottom: 15em;
-  left: 2em;
+  bottom: 18em;
+  left: 4em;
   color: #FFFFFF;
 }
 .heroText h1 {
   font-family: initial;
-  font-size: 60px;
+  font-size: 70px;
   font-weight: 900;
 }
 .carousel-inner {
