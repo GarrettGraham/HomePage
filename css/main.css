@@ -726,12 +726,13 @@ figcaption {
 }
 .userMessages button {
   background-color: #EFF0F0;
-  width: 109%;
+  width: 110%;
   position: relative;
-  right: 1.1em;
-  bottom: 1.8em;
+  right: 5%;
+  bottom: 2.35em;
   border: none;
-  padding-bottom: 5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
   color: #B3B6BA;
 }
 
