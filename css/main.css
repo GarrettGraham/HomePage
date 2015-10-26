@@ -363,6 +363,15 @@ aside hr {
 
 /* Main content nav bar */
 
+
+/* Class active on nav choices: friends (in page-top nav bar) and board (main content section nav bar)*/
+
+.active {
+  color: #373737;
+}
+
+/* end active class declaration */
+
 .postsNav {
   height: 4em;
 }
@@ -671,8 +680,10 @@ figcaption {
 
 
 /* inbox popover template */
-#popoverTemplate {
 
+.popover {
+  top: 5em!important;
+  max-width: 30em!important;
 }
 .userMessages {
   list-style: none;
