@@ -114,9 +114,11 @@ body {
 
 .leftNav li a {
   color: #BCBFC3;
+  font-weight: 600;
 }
 .leftNav li a:hover {
   color: #373737;
+  text-decoration: none;
 }
 .rightNav {
   display: inline-flex;
@@ -373,9 +375,11 @@ aside hr {
 }
 .sectionLeftNav li a {
   color: #BCBFC3;
+  font-weight: 600;
 }
 .sectionLeftNav li a:hover {
   color: #373737;
+  text-decoration: none;
 }
 .rightNavMainContent {
   float: right;
@@ -385,6 +389,7 @@ aside hr {
 .rightNavMainContent li {
   margin-top: 10px;
   color: #BCBFC3;
+  font-weight: 600;
 }
 .invitedNumber {
   margin-left: 1em;
@@ -487,6 +492,7 @@ figcaption {
   left: 0;
   margin: 0 1em 0 1em;
   text-align: center;
+  font-family: serif;
 }
 .fourthFigcaption p {
   font-weight: 600;
@@ -497,7 +503,7 @@ figcaption {
   font-weight: 500;
 }
 .fourthFigure .fa-heart {
-  color: #FF554C;
+  color: #FF554C!important;
 }
 
 /* End Fourth dashboard image figure */
@@ -550,6 +556,9 @@ figcaption {
   background-size: cover;
   bottom: 24em;
   position: relative;
+}
+.sixthFigure .fa-heart {
+  color: #FF554C!important;
 }
 
 /* End Sixth dashboard image figure */
@@ -633,26 +642,26 @@ figcaption {
   margin-left: 0.25em;
 }
 .firstFigure .dashboardImgIcons {
-  left: 8em;
+  left: 11em;
 }
 .secondFigure .dashboardImgIcons {
-  left: 8em;
+  left: 11em;
 }
 .thirdFigure .dashboardImgIcons {
-  left: 7em;
+  left: 9em;
 }
 .fourthFigure .dashboardImgIcons {
-  left: 25em;
+  left: 29em;
 }
 .fifthFigure .dashboardImgIcons {
-  left: 9em;
-  top: 2em;
+  left: 10.5em;
+  top: 3em;
 }
 .sixthFigure .dashboardImgIcons {
-  left: 8em;
+  left: 11em;
 }
 .seventhFigure .dashboardImgIcons {
-  left: 8em;
+  left: 11em;
 }
 
 /* end dashboard image icons */
@@ -662,6 +671,9 @@ figcaption {
 
 
 /* inbox popover template */
+#popoverTemplate {
+
+}
 .userMessages {
   list-style: none;
   padding: 0;
