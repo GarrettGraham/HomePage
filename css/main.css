@@ -214,7 +214,9 @@ body {
   font-size: 1.5em;
   margin-left: 0.25em;
 }
+
 /*End pin and heart icons for hero image */
+
 
 /* End Hero Image Carousel  */
 
@@ -290,6 +292,9 @@ aside hr {
   color: #303334;
 }
 
+/* end Aside: stories and followers div*/
+
+
 /* Aside: posts timeline list */
 
 .timeline {
@@ -323,12 +328,12 @@ aside hr {
   right: 20.7%;
 }
 .secondCircle {
-  bottom:0.2em;
+  bottom: 0.2em;
   position: relative;
   left: 22.6%;
 }
 
-/* timeline verticla line connecting dots */
+/* timeline vertical line connecting dots */
 
 .timeline::before {
   background: #323536;
@@ -339,6 +344,9 @@ aside hr {
   top: 8%;
   width: 2px;
 }
+
+/* end timeline vertical line */
+
 
 /* End Aside */
 
@@ -454,14 +462,14 @@ figcaption {
   bottom: 4em;
   font-size: 25px;
 }
-
 .thirdFigure #imageOverlay {
   padding-top: 218px;
 }
 .thirdFigure .overlayIcons i {
   position: relative;
-  bottom:5em;
+  bottom: 5em;
 }
+
 /* End third dashboard image figure */
 
 
@@ -493,6 +501,8 @@ figcaption {
 }
 
 /* End Fourth dashboard image figure */
+
+
 /* Fifth dashboard image figure */
 
 .fifthFigure {
@@ -519,7 +529,9 @@ figcaption {
   margin: 1em;
   text-align: left;
 }
+
 /* !!kept the post image div so i may have the image place within the figure below the text unlike the other figures that dont have text!!*/
+
 .fifthPostImage {
   background: url("/img/Pkdilly.jpg");
   background-size: cover;
@@ -527,33 +539,41 @@ figcaption {
 .fifthPostImage #imageOverlay {
   bottom: 0;
 }
+
 /* End Fifth dashboard image figure */
 
+
 /* Sixth dashboard image figure */
+
 .sixthFigure {
   background: url("/img/Canal.jpg");
   background-size: cover;
   bottom: 24em;
   position: relative;
 }
+
 /* End Sixth dashboard image figure */
 
+
 /* Seventh dashboard image figure */
+
 .seventhFigure {
   background: url("/img/English_Channel.jpg");
   background-size: cover;
   bottom: 22.55em;
   position: relative;
 }
+
 /* End Seventh dashboard image figure */
+
 
 /* hover state on the dashboard images  */
 
 #imageOverlay {
   background: #4D8FA5;
-  bottom: 2em;
+  bottom: 1.6em;
   opacity: 0;
-  padding: 87px 0 104px 0;
+  padding: 87px 0 98px 0;
   position: relative;
   text-align: center;
 }
@@ -577,16 +597,21 @@ figcaption {
   border-radius: 50%;
   margin-left: 1em;
 }
+
 /* End hover states on dashboard image */
 
+
 /* dashboard section caret */
+
 .fa-sort-asc {
   position: relative;
   left: 1.55em;
   bottom: 0.55em;
   color: #EBEDEB;
 }
+
 /* End dashboard section caret */
+
 
 /* dashboard image icons */
 
@@ -629,13 +654,14 @@ figcaption {
 .seventhFigure .dashboardImgIcons {
   left: 8em;
 }
+
 /* end dashboard image icons */
+
 
 /* end main content dashboard */
 
 
 /* inbox popover template */
-
 .userMessages {
   list-style: none;
   padding: 0;
@@ -649,7 +675,6 @@ figcaption {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  /*float: left;*/
 }
 .userMessages h5 {
   position: relative;
@@ -685,6 +710,7 @@ figcaption {
   padding-bottom: 5px;
   color: #B3B6BA;
 }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
