@@ -367,7 +367,7 @@ aside hr {
 /* Class active on nav choices: friends (in page-top nav bar) and board (main content section nav bar)*/
 
 .active {
-  color: #373737;
+  color: #373737!important;
 }
 
 /* end active class declaration */
@@ -682,19 +682,21 @@ figcaption {
 /* inbox popover template */
 
 .popover {
-  top: 5em!important;
+  top: 6em!important;
   max-width: 30em!important;
 }
 .userMessages {
   list-style: none;
   padding: 0;
   width: 300px;
-  height: 190px;
+  height: 160px;
 }
 .userMessages li {
   height: 95px;
 }
 .userMessages li img {
+  position: relative;
+  top: 0.5em;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -702,33 +704,32 @@ figcaption {
 .userMessages h5 {
   position: relative;
   bottom: 3em;
-  margin-left: 3em;
+  margin-left: 4em;
 }
 .userMessages li time {
   float: right;
   position: relative;
   bottom: 4.9em;
-  right: 4em;
+  right: 1em;
   color: #ABACAE;
 }
 .userMessages p {
   position: relative;
   bottom: 3em;
-  left: 3em;
+  left: 4em;
   color: #646464;
 }
 .userMessages hr {
   bottom: 1em;
-  margin: 0 2em 0 2em;
+  margin: 0 1em 0 1em;
   position: relative;
-  right: 2em;
 }
 .userMessages button {
   background-color: #EFF0F0;
-  width: 91%;
+  width: 109%;
   position: relative;
-  right: 1em;
-  bottom: 0.8em;
+  right: 1.1em;
+  bottom: 1.8em;
   border: none;
   padding-bottom: 5px;
   color: #B3B6BA;
