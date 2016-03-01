@@ -132,6 +132,7 @@ body {
 #navLinesLeft {
   padding: 10px 20px;
 }
+
 #navLinesRight {
   color: white;
   margin-top: 10px;
@@ -680,7 +681,9 @@ figcaption {
 
 
 /* inbox popover template */
-
+#popoverTemplate:hover{
+  display: list-item;
+}
 .popover {
   top: 6em!important;
   max-width: 30em!important;

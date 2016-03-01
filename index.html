@@ -50,10 +50,30 @@
           <li id="navLinesLeft">
             <a href="#">your board</a>
             <i class="fa fa-circle boardCircle"></i>
+            <!-- green dot to be needs to be on top right corner of 'your board' text -->
           </li>
-          <!-- green dot to be needs to be on top right corner of 'your board' text -->
           <li id="navLinesLeft">
-            <a href="#" class="inboxPopover" data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-html="true">inbox</a>
+            <a href="#" class="inboxPopover" data-container="body" data-toggle="popover" data-placement="bottom"
+            data-trigger="hover"
+            data-html="true">inbox</a>
+            <div id="popoverTemplate" class="hide">
+              <ul class="userMessages">
+                <li>
+                  <img src="img/Garrett.jpg" />
+                  <h5>Garrett Anderson</h5>
+                  <time>Today, 15:20</time>
+                  <p>Wicked pins</p>
+                </li>
+                <hr>
+                <li>
+                  <img src="img/Garrett.jpg" />
+                  <h5>Garrett Anderson</h5>
+                  <time>Today, 15:20</time>
+                  <p>Wicked pins</p>
+                </li>
+                <button>see all</button>
+              </ul>
+            </div>
           </li>
         </div>
         <!-- End of left Nav bar -->
@@ -312,7 +332,7 @@
     <!-- End of dashboard content -->
 
     <!-- Template for the popover on the inbox line element -->
-    <div id="popoverTemplate" class="hide">
+    <!-- <div id="popoverTemplate" class="hide">
       <ul class="userMessages">
         <li>
           <img src="img/Garrett.jpg" />
@@ -329,7 +349,7 @@
         </li>
         <button>see all</button>
       </ul>
-    </div>
+    </div> -->
     <!-- End popover template -->
   </div>
 
